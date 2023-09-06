@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.mainContainer{
+
+     width: 100%;
+}
+
+.search_section{
+ 
+    /* background-color: aqua; */
+    background-color: rgba(224, 255, 25, 0.2);
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 4px double gray;
+}
+
+.search_section input{
+    padding: 10px 40px;
+    width: 60ch;
+    /* outline: none; */
+    background-color: rgba(203, 232, 233, 0.8);
+    border: none;
+    font-size: 20px;
+    border-radius: 5px;
+    color: gray;
+    font-size: larger;
+}
+
+button{
+    padding: 10px 20px;
+    margin: 10px 10px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-weight: 900;
+    background-color:rgb(48, 127, 255);
+    box-shadow: 2px 2px 3px red;
+    cursor: pointer;
+}
+
+button:hover{
+    transform: scale(1.1);
+    transition: all;
+    transition: 0.5s ease-in;
+}
+.img{
+    width: 90%;
+    height: 300px;
+}
+
+#cardSection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* background-color: aqua; */
+    margin-top: 60px;
+    padding: 20px 40px;
+    flex-wrap: wrap;
+}
+
+.border{
+    border: 5px double rgb(158, 121, 121);
+    padding: 10px 20px;
+    position: relative;
+    background-color: rgb(96, 79, 79);
+    color: white;
+    margin: 30px;
+    width: 50%;
+}
+
+.des{
+   text-transform: capitalize;
+   font-size: 30px;
+   text-shadow: 5px 5px 15px gray;
+   padding: 10px 20px ;
+
+}
+
+.id{
+   position: absolute;
+   top: 40px;
+   left: 70px;
+   text-transform: uppercase;
+   text-shadow: 5px 5px 15px gray;
+
+}
+
+.userName{
+    text-transform: capitalize;
+    font-size: 20px;
+    text-shadow: 5px 5px 15px gray;
+    padding: 10px 20px ;
+}
+
+.userPic{
+       box-shadow: 3px 3px 10px gray;
+       border-radius: 50%;
+}
+
+.center{
+    text-align: center;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    text-shadow: 2px 2px 10px red;
+    
+}
+
